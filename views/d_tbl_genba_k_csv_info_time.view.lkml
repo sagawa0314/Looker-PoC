@@ -362,6 +362,18 @@ view: d_tbl_genba_k_csv_info_time {
     sql: ${TABLE}.cutter_torque ;;
   }
 
+  measure: cutter_torque_avg {
+    label:"カッタートルク平均"
+    type: average
+    sql: ${TABLE}.cutter_torque ;;
+  }
+
+  measure: cutter_torque_2min_sum {
+    label:"カッタートルク合計"
+    type: sum
+    sql: ${TABLE}.cutter_torque ;;
+  }
+
   dimension_group: data_datetime {
     type: time
     timeframes: [
