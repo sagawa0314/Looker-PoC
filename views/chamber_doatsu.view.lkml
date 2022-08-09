@@ -1,4 +1,4 @@
-view: chamber_doatsu2 {
+view: chamber_doatsu {
   sql_table_name: `shield.d_Tbl_genba_k_csv_info_time`
   ;;
 

@@ -29,3 +29,7 @@ explore: genba_k_csv_info_time_321 {}
 explore: kensho {}
 
 explore: genba_k_csv_info_time_4_6 {}
+
+explore: chamber_doatsu {}
+
+explore: chamber_doatsu_sql {}
