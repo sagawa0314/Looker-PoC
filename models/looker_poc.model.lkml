@@ -33,3 +33,5 @@ explore: genba_k_csv_info_time_4_6 {}
 explore: chamber_doatsu {}
 
 explore: chamber_doatsu_sql {}
+
+explore: cutter_torque_sql {}
